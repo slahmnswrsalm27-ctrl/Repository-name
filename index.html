@@ -48,6 +48,8 @@
       margin-bottom: 20px;
       text-align: center;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      display: block;
+      text-decoration: none;
     }
     .promo-card h3 {
       color: #856404;
@@ -87,17 +89,33 @@
       font-size: 20px;
       margin-bottom: 12px;
     }
+    .img-link {
+      display: block;
+      text-decoration: none;
+      position: relative;
+    }
     .cert-img {
       width: 100%;
       border-radius: 10px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.15);
       display: block;
       margin: 0 auto;
+      transition: transform 0.2s ease;
     }
     .cert-sub {
       margin-top: 10px;
       font-size: 14px;
       color: #555;
+      font-weight: bold;
+    }
+    .click-hint {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 13px;
+      color: #1b4965;
+      background: #eef4f8;
+      padding: 4px 12px;
+      border-radius: 20px;
       font-weight: bold;
     }
     .services-list {
@@ -129,6 +147,7 @@
       border-radius: 10px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
       display: block;
+      transition: transform 0.2s ease;
     }
     .footer-note {
       text-align: center;
@@ -183,15 +202,19 @@
 
   <div class="container">
 
-    <div class="promo-card">
+    <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="promo-card" target="_blank">
       <h3>عرض خاص وسرعة استجابة</h3>
       <p>وفر وقتك وصور مكان الشغل وأرسل الصور على الواتساب أو اتصل بنا الآن لتحصل على تقدير فوري ومعاينة سريعة واستلم شغلك بأعلى دقة ليزر واستواء تام داخل جدة</p>
-    </div>
+      <span class="click-hint">اضغط هنا للمراسلة الفورية عبر الواتساب</span>
+    </a>
 
     <div class="card cert-card">
       <h2>شهادة الخبرة المهنية المعتمدة</h2>
-      <img src="1789935767518.png" alt="شهادة خبرة فني تركيب سيراميك وبورسلين جوهرة جدة" class="cert-img">
+      <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="img-link" target="_blank">
+        <img src="1789935767518.png" alt="شهادة خبرة فني تركيب سيراميك وبورسلين جوهرة جدة" class="cert-img">
+      </a>
       <p class="cert-sub">خبرة عريقة ودقة متناهية لضمان أعلى معايير الجودة والاستواء</p>
+      <span class="click-hint">اضغط على الشهادة للتواصل المباشر عبر الواتساب</span>
     </div>
 
     <div class="card">
@@ -208,9 +231,15 @@
     <div class="card">
       <h2>من أعمالنا في جدة</h2>
       <div class="gallery">
-        <img src="FB_IMG_1790797287550.jpg" alt="تركيب سيراميك وبورسلين ورخام بجده">
-        <img src="FB_IMG_1791468596167.jpg" alt="معلم تركيب بورسلين وسلابات بميزان الليزر بجده">
-        <img src="FB_IMG_1791458732434.jpg" alt="تشطيب ارضيات وجدران بميزان الليزر بجده">
+        <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="img-link" target="_blank">
+          <img src="FB_IMG_1790797287550.jpg" alt="تركيب سيراميك وبورسلين ورخام بجده">
+        </a>
+        <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="img-link" target="_blank">
+          <img src="FB_IMG_1791468596167.jpg" alt="معلم تركيب بورسلين وسلابات بميزان الليزر بجده">
+        </a>
+        <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="img-link" target="_blank">
+          <img src="FB_IMG_1791458732434.jpg" alt="تشطيب ارضيات وجدران بميزان الليزر بجده">
+        </a>
       </div>
     </div>
 
@@ -224,7 +253,7 @@
     <a href="tel:0548807357" class="floating-btn btn-call">
       اتصال مباشر
     </a>
-    <a href="https://wa.me/966548807357" class="floating-btn btn-whatsapp" target="_blank">
+    <a href="https://wa.me/966548807357?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9%20%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9%20%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D9%81%D9%88%D8%B1%D9%8A%20%D9%88%D9%87%D8%B0%D9%87%20%D8%B5%D9%88%D8%B1%20%D9%85%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B4%D8%BA%D9%84%20%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B3%D9%84%D9%8A%D9%86%20%D8%A8%D9%85%D9%8A%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D8%B1" class="floating-btn btn-whatsapp" target="_blank">
       واتساب فوري
     </a>
   </div>
